@@ -1,0 +1,62 @@
+body{
+	text-align: center; /* 文字置中 */
+	background: rgb(202, 255, 255);
+    color:rgb(3, 70, 177); /* 文字顏色 */
+	padding: 0;
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+/* article */
+article{
+	display: inline-block;
+	border: solid 1px rgba(39, 65, 233, 0.2);
+	width: 200px;
+}
+
+article img{
+	width: 80%;
+	border-radius: 50%;
+}
+
+article a{
+	display: inline-block;
+	background: #70feda; color:darkblue;
+	text-decoration: wavy;
+	padding-bottom: 20px;
+}
+
+article a:hover{
+	background: #0e1b18;
+	color:hotpink;
+}
+
+article a:active{
+	background:hotpink;
+	color:#0e1b18;
+}
+
+
+/*nav*/
+nav{
+	 /* background: #bc6c25;  */
+}
+
+nav a{
+	background: #70feda;
+	padding: 20px;
+	display: inline-block;
+
+	color:darkblue;
+	text-decoration:line-through;
+}
+
+nav a:hover{
+	background: #0e1b18;
+	color:dodgerblue;
+	border-radius:80%;
+
+}
+
+
+
